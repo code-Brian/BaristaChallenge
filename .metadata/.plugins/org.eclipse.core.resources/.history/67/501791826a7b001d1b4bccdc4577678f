@@ -7,13 +7,6 @@ public class OrderTest {
 		Item capuccino = new Item("Capuccino", 4.20);
 		Item thiccBiscuits = new Item("Two T H I C C Biscuits", 3.51);
 		Item succulentGravy = new Item("Succulent Gravy", 0.69);
-		
-		Order guest1 = new Order();
-		guest1.addItem(thiccBiscuits);
-		guest1.addItem(succulentGravy);
-		
-		Order guest2 = new Order();
-		guest2.addItem(capuccino);
 	}
 
 }

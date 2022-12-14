@@ -9,11 +9,6 @@ public class OrderTest {
 		Item succulentGravy = new Item("Succulent Gravy", 0.69);
 		
 		Order guest1 = new Order();
-		guest1.addItem(thiccBiscuits);
-		guest1.addItem(succulentGravy);
-		
-		Order guest2 = new Order();
-		guest2.addItem(capuccino);
 	}
 
 }

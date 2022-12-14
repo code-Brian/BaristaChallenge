@@ -5,16 +5,9 @@ public class OrderTest {
 		// TODO Auto-generated method stub
 		Item dripCoffee = new Item("Drip Coffee", 0.69);
 		Item capuccino = new Item("Capuccino", 4.20);
-		Item thiccBiscuits = new Item("Two T H I C C Biscuits", 3.51);
+		Item thiccBiscuit = new Item("T H I C C Biscuit", 1.15);
 		Item succulentGravy = new Item("Succulent Gravy", 0.69);
-		
-		Order guest1 = new Order();
-		guest1.addItem(thiccBiscuits);
-		guest1.addItem(succulentGravy);
-		
-		Order guest2 = new Order();
-		guest2.addItem(capuccino);
 	}
 
 }
-		
+	

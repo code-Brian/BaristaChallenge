@@ -13,7 +13,6 @@ public class OrderTest {
 		guest1.addItem(succulentGravy);
 		
 		Order guest2 = new Order();
-		guest2.addItem(capuccino);
 	}
 
 }
