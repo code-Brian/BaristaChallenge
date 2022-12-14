@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class Order {
+	// Memba variables
+	private String name;
+	private boolean ready;
+	private ArrayList<Item> items;
+	
+	// Constructors
+	// No args, sets name to "Guest", initializes items as an empty list;
+	
+	public Order() {
+		this.name = "Guest";
+		this.items = new ArrayList<Item>();
+	}
+	
+	public Order() {
+		
+	}
+}

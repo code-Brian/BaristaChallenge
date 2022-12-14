@@ -1,0 +1,11 @@
+
+public class Item {
+	// Private member variables
+	private String name;
+	private double price;
+	
+	// Constructor for Item
+	public Item() {
+		
+	}
+}
