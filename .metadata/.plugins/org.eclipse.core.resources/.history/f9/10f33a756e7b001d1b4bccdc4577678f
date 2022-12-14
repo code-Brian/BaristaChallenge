@@ -50,7 +50,7 @@ public class OrderTest {
 		
 		guest5.getStatusMessage();
 		
-		System.out.println("Testing order total for guest1... order total is: " + guest1.getOrderTotal() + ".");
+		System.out.println("Testing order total for guest 1... order total is:" + guest1.getOrderTotal());
 	}
 
 }

@@ -49,8 +49,6 @@ public class OrderTest {
 		guest4.getStatusMessage();
 		
 		guest5.getStatusMessage();
-		
-		System.out.println("Testing order total for guest1... order total is: " + guest1.getOrderTotal() + ".");
 	}
 
 }
