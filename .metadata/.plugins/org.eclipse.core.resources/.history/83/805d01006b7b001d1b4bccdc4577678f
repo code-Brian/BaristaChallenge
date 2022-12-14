@@ -8,7 +8,6 @@ public class OrderTest {
 		Item thiccBiscuits = new Item("Two T H I C C Biscuits", 3.51);
 		Item succulentGravy = new Item("Succulent Gravy", 0.69);
 		
-		// Create 2 guest orders
 		Order guest1 = new Order();
 		guest1.addItem(thiccBiscuits);
 		guest1.addItem(succulentGravy);
@@ -16,16 +15,11 @@ public class OrderTest {
 		Order guest2 = new Order();
 		guest2.addItem(capuccino);
 		
-		// Create 3 orders using the overloaded constructor
 		Order guest3 = new Order("Rick Sanchez");
 		guest3.addItem(dripCoffee);
 		
 		Order guest4 = new Order("Jerry Smith");
 		guest4.addItem(capuccino);
-		guest4.addItem(succulentGravy);
-		
-		Order guest5 = new Order("Morty Smith");
-		guest5.addItem(thiccBiscuits);
 	}
 
 }
