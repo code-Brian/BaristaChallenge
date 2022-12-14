@@ -32,10 +32,6 @@ public class OrderTest {
 		
 		// Test the results for each order
 		guest1.display();
-		guest2.display();
-		guest3.display();
-		guest4.display();
-		guest5.display();
 	}
 
 }

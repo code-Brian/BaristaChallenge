@@ -34,8 +34,6 @@ public class OrderTest {
 		guest1.display();
 		guest2.display();
 		guest3.display();
-		guest4.display();
-		guest5.display();
 	}
 
 }

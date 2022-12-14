@@ -39,12 +39,11 @@ public class Order {
 		return orderTotal;
 	}
 	
-	public void display() {
-		System.out.println("Customer name: " + name);
+	public void display(Object order) {
+		System.out.println("Customer name: " + this.order.name);
 		for (int i = 0; i < items.size(); i++) {
 			System.out.println(items.get(i).getName() + " - " + items.get(i).getPrice());
 		}
-		System.out.println("Total: " + getOrderTotal() + "\n");
 	}
 	
 	// Setters n getters (I'm a real set and go-getter!)
