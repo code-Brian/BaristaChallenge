@@ -22,12 +22,12 @@ public class Order {
 	}
 	
 	// Order methods
-	public void getStatusMessage() {
+	public String getStatusMessage() {
 		boolean isReady = getReady();
 		if (isReady) {
-			System.out.println("Hey, " + getName() + "." + " Your order is ready!");
+			return "Your order is ready!";
 		} else {
-			System.out.println("Sowwy, " + getName() + "." + " No order just yet!");
+			return "Sowwy, no order just yet!";
 		}
 	}
 	

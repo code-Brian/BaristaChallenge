@@ -45,10 +45,6 @@ public class OrderTest {
 		
 		guest3.setReady(true);
 		guest3.getStatusMessage();
-		
-		guest4.getStatusMessage();
-		
-		guest5.getStatusMessage();
 	}
 
 }

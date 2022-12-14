@@ -36,19 +36,6 @@ public class OrderTest {
 		guest3.display();
 		guest4.display();
 		guest5.display();
-		
-		// Set order status for funsies
-		guest1.setReady(true);
-		guest1.getStatusMessage();
-		
-		guest2.getStatusMessage();
-		
-		guest3.setReady(true);
-		guest3.getStatusMessage();
-		
-		guest4.getStatusMessage();
-		
-		guest5.getStatusMessage();
 	}
 
 }

@@ -41,14 +41,9 @@ public class OrderTest {
 		guest1.setReady(true);
 		guest1.getStatusMessage();
 		
-		guest2.getStatusMessage();
+		guest2.getReady();
 		
-		guest3.setReady(true);
-		guest3.getStatusMessage();
-		
-		guest4.getStatusMessage();
-		
-		guest5.getStatusMessage();
+		guest
 	}
 
 }
