@@ -15,7 +15,6 @@ public class OrderTest {
 		
 		Order guest2 = new Order();
 		guest2.addItem(capuccino);
-		guest2.addItem(thiccBiscuits);
 		
 		// Create 3 orders using the overloaded constructor
 		Order guest3 = new Order("Rick Sanchez");
